@@ -206,20 +206,7 @@
       </div>
     </div>
 
-<script src="https://misse-a.github.io/khalmex-invoice/generator.min.js"></script>
-
-<script src="https://misse-a.github.io/khalmex-invoice/css/data.js"></script>
-
-<script>
-  // Ensure the library and data are loaded, then trigger the generation
-  // NOTE: You must check the source of your downloaded generator.min.js
-  // to confirm the exact function name, which is often 'InvoiceBus.render()'
-  window.onload = function() {
-    if (typeof InvoiceBus !== 'undefined' && typeof data !== 'undefined') {
-      InvoiceBus.render(data);
-    }
-  };
-</script>
+<script src="https://cdn.invoicebus.com/generator/generator.min.js?data=https://misse-a.github.io/khalmex-invoice/css/data.js"></script>
   (function() {
     var elements = document.getElementsByClassName('ib_invoicebus_love');
     for (var i = 0; i < elements.length; i++) {
