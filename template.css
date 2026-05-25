@@ -104,7 +104,7 @@ b, strong, .bold {
   left: 0;
   bottom: 0;
   width: 100px;
-  background: url("stripe-bottom.png") center bottom no-repeat, url("stripe-bg.jpg") repeat;
+  background: url("https://misse-a.github.io/khamlex-invoice/stripe-bottom.png") center bottom no-repeat, url("https://misse-a.github.io/khamlex-invoice/stripe-bg.jpg") repeat;
 }
 .left-stripes .circle {
   -moz-border-radius: 50%;
